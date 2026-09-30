@@ -9,6 +9,5 @@ nav:
 - Accueil: index.md
 - Visualisation: visualisation.md
 - TAAF_012-289:
-  - Page 1: page/TAAF_012-289/TAAF_012-289_page_0.md
 extra_css:
 - stylesheet/custom.css

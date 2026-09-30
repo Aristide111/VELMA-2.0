@@ -70,7 +70,7 @@ WARNING = {
     "fr": (
         "L'OCR, l'extraction des images, la mise en page ainsi que la reconnaissance "
         "d'entités nommées de ces documents ont été générés automatiquement via l'API "
-        "Mistral OCR. Il est donc possible que des erreurs de transcription, des "
+        "Albert. Il est donc possible que des erreurs de transcription, des "
         "hallucinations et des biais subsistent. Nous attirons votre attention sur le risque "
         "de biais de sous-représentation concernant la reconnaissance d'entités nommées : "
         "si un terme est absent, il est possible que le logiciel ne l'ait pas détecté. "
@@ -79,7 +79,7 @@ WARNING = {
     ),
     "en": (
         "The OCR, image extraction, page layout, and named entity recognition applied to "
-        "these documents were automatically generated using the Mistral OCR API. As a "
+        "these documents were automatically generated using the Albert API. As a "
         "result, transcription errors, hallucinations, and biases may persist. We draw your "
         "attention to the risk of under-representation bias regarding named entity recognition: "
         "if a term is absent, it is possible that the software failed to detect it. "

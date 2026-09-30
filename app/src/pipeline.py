@@ -103,7 +103,7 @@ def run_ocr_and_build(files, clean_site, progress=gr.Progress()):
     architecture(Input)
 
     # OCR
-    progress(0.25, desc="Exécution de l'OCR via l'API Mistral...")
+    progress(0.25, desc="Exécution de l'OCR via l'API Albert...")
 
     results_ocr = OCR(Input)
 
@@ -139,7 +139,7 @@ def run_ner_pipeline(progress=gr.Progress()):
     # Extraction des entités
     progress(0.0, desc="Préparation de l'extraction des entités...")
 
-    progress(0.1, desc="Extraction des entités avec Mistral...")
+    progress(0.1, desc="Extraction des entités avec Albert...")
     extracted_data = extract_entities()
 
     progress(0.8, desc="Génération du graphique de datavisualisation...")

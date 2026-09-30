@@ -28,7 +28,7 @@ def save_image(image, folder_stem, page_index):
     with p_img.open("wb") as f:
         f.write(parsed.data)
 
-# Correction des liens d'images générés automatiquement par l'API de mistral pour les faire correspondre à ceux définis plus haut.
+# Correction des liens d'images générés automatiquement par l'API Albert pour les faire correspondre à ceux définis plus haut.
 
 def _replace_image_links(content, pdf_stem, page_index):
 
