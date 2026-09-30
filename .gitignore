@@ -1,2 +1,7 @@
+# Secrets
 .env
-app/.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
