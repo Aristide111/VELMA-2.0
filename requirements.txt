@@ -8,3 +8,5 @@ datauri
 PyYAML
 mkdocs
 mkdocs-material
+openai
+pypdfium2
