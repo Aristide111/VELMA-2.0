@@ -1,0 +1,20 @@
+site_name: Site
+docs_dir: docs
+theme:
+  name: material
+  features:
+  - navigation.footer
+  logo: assets/logo.png
+nav:
+- Accueil: index.md
+- Visualisation: visualisation.md
+- FEP_5AM_APRE_7:
+  - Page 1: page/FEP_5AM_APRE_7/FEP_5AM_APRE_7_page_0.md
+  - Page 2: page/FEP_5AM_APRE_7/FEP_5AM_APRE_7_page_1.md
+  - Page 3: page/FEP_5AM_APRE_7/FEP_5AM_APRE_7_page_2.md
+  - Page 4: page/FEP_5AM_APRE_7/FEP_5AM_APRE_7_page_3.md
+  - Page 5: page/FEP_5AM_APRE_7/FEP_5AM_APRE_7_page_4.md
+  - Page 6: page/FEP_5AM_APRE_7/FEP_5AM_APRE_7_page_5.md
+  - Page 7: page/FEP_5AM_APRE_7/FEP_5AM_APRE_7_page_6.md
+extra_css:
+- stylesheet/custom.css

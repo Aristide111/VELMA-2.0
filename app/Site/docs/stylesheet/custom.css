@@ -1,0 +1,118 @@
+/* Corps de la page */
+body {
+    background-color: #eceadf;
+}
+
+/* En-tête */
+.md-header {
+    background-color: #171717;
+    height: 130px !important;
+    color: #36AD58;
+}
+
+/* Titre du site */
+.md-header__title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #36AD58;
+    font-size: 500%;
+}
+
+/* Barre de recherche */
+.md-search,
+.md-search__form {
+    background-color: #36AD58 !important;
+}
+
+/* Onglets de navigation */
+.md-tabs {
+    background-color: #171717;
+}
+
+/* Menu de navigation */
+.md-nav {
+    color: #eceadf;
+    background-color: #171717;
+    margin-right: 0%;
+}
+
+/* Titre du menu de navigation */
+.md-nav__title {
+    color: #36AD58;
+    background-color: #171717 !important;
+    box-shadow: none !important;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* Paragraphes */
+p {
+    color: #171717;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+}
+
+/* Titres principaux */
+.md-typeset h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #3B3D7B;
+    text-align: center;
+    font-size: 48px;
+}
+
+/* Conteneur principal */
+.md-grid {
+    max-width: none !important;
+    width: 100% !important;
+    margin: 0 !important;
+}
+
+/* Conteneur interne principal */
+.md-main__inner {
+    margin: 0 !important;
+}
+
+/* Zone de contenu */
+.md-content {
+    max-width: none !important;
+    width: 100% !important;
+    padding: 20px 3% !important;
+}
+
+/* Couleurs globales du thème */
+:root {
+    --md-accent-fg-color: #36AD58;
+    --md-typeset-a-color: #36AD58;
+}
+
+/* Pied de page */
+.md-footer {
+    color: #36AD58;
+}
+
+/* Logo */
+.md-header__button.md-logo {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+/* Logo au survol */
+.md-header__button.md-logo:hover {
+    transform: scale(1.2) rotate(-8deg);
+}
+
+/* Image du logo */
+.md-header__button.md-logo img {
+    width: 80px !important;
+    height: 80px !important;
+}
+
+/* Liens au survol */
+a:hover {
+    color: #36AD58;
+    transform: scale(1.1);
+}
+
+/* Liens visités */
+a:visited {
+    color: #227038;
+}

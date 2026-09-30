@@ -1,0 +1,10 @@
+gradio
+python-dotenv
+mistralai
+tqdm
+matplotlib
+pandas
+datauri
+PyYAML
+mkdocs
+mkdocs-material

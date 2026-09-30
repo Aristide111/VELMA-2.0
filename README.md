@@ -1,16 +1,18 @@
-# VELMA
+# VELMA 2.0
 
 # Français
 
 ## Présentation
 
-VELMA Visualization, Extraction, Linguistic analysis and Metadata for Archives documents est une application destinée à transformer des fonds de presse numérisés en contenus web statiques, structurés et exploitables.
+VELMA 2.0 Visualization, Extraction, Linguistic analysis and Metadata for Archives documents est une application destinée à transformer des fonds de presse numérisés en contenus web statiques, structurés et exploitables.
+
+Il s'agit de la V2 de l'application basé sur l'API MISTRAL OCR
 
 Cette application à été crée pour la Maison de la Fondation de l'Ecologie Politique afin de permettre la mise en valeur de leurs fonds dans le cadre d'un stage de fin d'études du master TNAH de l'Ecole Nationale des Chartes.
 
 Elle a pour objectif de faciliter le traitement des collections de presse historique en automatisant plusieurs fonctionnalités, dont l'OCR, l'extraction d'images, la recherche plein texte, la reconnaissance d'entités nommées et l'ajout de métadonnées au format Dublin Core.
 
-VELMA Visualization, Extraction, Linguistic analysis and Metadata for Archives documents combine des méthodes de vision par ordinateur et l'API Mistral OCR pour le traitement des documents et l'extraction de leur contenu textuel. Les sites web créés sont statiques et utilisent la technologie MkDocs.
+VELMA 2.0 Visualization, Extraction, Linguistic analysis and Metadata for Archives documents combine des méthodes de vision par ordinateur et l'API ALBERT pour le traitement des documents et l'extraction de leur contenu textuel. Les sites web créés sont statiques et utilisent la technologie MkDocs.
 
 L'objectif est de proposer une première lecture de grands volumes de documents.
 
@@ -22,7 +24,7 @@ Les résultats produits ne se substituent cependant pas à une véritable recher
 
 1. **Chargement et prétraitement :** Import des documents au format PDF.
 
-2. **Analyse de la mise en page et extraction du texte :** Extraction des images et OCR du texte via l'API Mistral OCR. Transformation des résultats en un site MkDocs permettant notamment une recherche plein texte.
+2. **Analyse de la mise en page et extraction du texte :** Extraction des images et OCR du texte via l'API ALBERT. Transformation des résultats en un site MkDocs permettant notamment une recherche plein texte.
 
 3. **Analyse linguistique :** Traitement du texte extrait à l'aide de méthodes de traitement automatique du langage naturel (NLP), reconnaissance d'entités nommées et création d'une datavisualisation des 30 termes les plus fréquents.
 
@@ -69,10 +71,10 @@ Les résultats produits ne se substituent cependant pas à une véritable recher
 
 ## Prérequis
 
-VELMA Visualization, Extraction, Linguistic analysis and Metadata for Archives documents nécessite :
+VELMA 2.0 Visualization, Extraction, Linguistic analysis and Metadata for Archives documents nécessite :
 
 * **Python 3.10 ou supérieur**
-* Une connexion Internet pour accéder à l'API Mistral OCR
+* Une connexion Internet pour accéder à l'API ALBERT
 * Une **clé API Mistral** configurée via `https://admin.mistral.ai/organization/api-keys` et renseigné dans le fichier `.env`
 
 ## Windows — Invite de commandes (`cmd`)
@@ -80,7 +82,7 @@ VELMA Visualization, Extraction, Linguistic analysis and Metadata for Archives d
 ### 1. Se rendre dans le dossier du projet
 
 ```cmd
-cd chemin\vers\VELMA Visualization, Extraction, Linguistic analysis and Metadata for Archives documents
+cd chemin\vers\VELMA 2.0 Visualization, Extraction, Linguistic analysis and Metadata for Archives documents
 ```
 
 ### 2. Créer un environnement virtuel
@@ -103,7 +105,7 @@ pip install -r requirements.txt
 
 ---
 
-# Lancement de VELMA Visualization, Extraction, Linguistic analysis and Metadata for Archives documents
+# Lancement de VELMA 2.0 Visualization, Extraction, Linguistic analysis and Metadata for Archives documents
 
 Une fois l'environnement virtuel activé et les dépendances installées, lancer l'application avec :
 
@@ -122,7 +124,7 @@ Cette adresse peut également être affichée directement dans le terminal lors 
 ---
 
 
-# VELMA Visualization, Extraction, Linguistic analysis and Metadata for Archives documents : 
+# VELMA 2.0 Visualization, Extraction, Linguistic analysis and Metadata for Archives documents : 
 
 ---
 
@@ -130,11 +132,11 @@ Cette adresse peut également être affichée directement dans le terminal lors 
 
 ## Overview
 
-VELMA Visualization, Extraction, Linguistic analysis and Metadata for Archives documents is an application designed to transform digitized press collections into static, structured, and usable web content.
+VELMA 2.0 Visualization, Extraction, Linguistic analysis and Metadata for Archives documents is an application designed to transform digitized press collections into static, structured, and usable web content.
 
 Its goal is to facilitate the processing of historical press collections by automating several features, including OCR, image extraction, full-text search, named entity recognition, and the addition of Dublin Core metadata.
 
-VELMA Visualization, Extraction, Linguistic analysis and Metadata for Archives documents combines computer vision methods and the Mistral OCR API for document processing and text content extraction. The websites created are static and use MkDocs technology.
+VELMA 2.0 Visualization, Extraction, Linguistic analysis and Metadata for Archives documents combines computer vision methods and the ALBERT API for document processing and text content extraction. The websites created are static and use MkDocs technology.
 
 The objective is to offer a preliminary reading of large volumes of documents.
 
@@ -147,7 +149,7 @@ However, the results produced do not substitute for genuine scientific research 
 ## Pipeline Workflow
 
 1. **Loading and preprocessing:** Import of documents in PDF format.
-2. **Layout analysis and text extraction:** Image extraction and text OCR via the Mistral OCR API. Transformation of results into an MkDocs site allowing full-text search, among other features.
+2. **Layout analysis and text extraction:** Image extraction and text OCR via the ALBERT API. Transformation of results into an MkDocs site allowing full-text search, among other features.
 3. **Linguistic analysis:** Processing of the extracted text using Natural Language Processing (NLP) methods, named entity recognition, and creation of a data visualization of the 30 most frequent terms.
 4. **Metadata extraction:** Ability to add descriptive metadata in Dublin Core format.
 5. **Data export:** The generated site can be exported as a ZIP folder. Data visualizations can be exported in PNG format.
@@ -191,10 +193,10 @@ However, the results produced do not substitute for genuine scientific research 
 
 ## Prerequisites
 
-VELMA Visualization, Extraction, Linguistic analysis and Metadata for Archives documents requires:
+VELMA 2.0 Visualization, Extraction, Linguistic analysis and Metadata for Archives documents requires:
 
 * **Python 3.10 or higher**
-* An Internet connection to access the Mistral OCR API
+* An Internet connection to access the ALBERT API
 * A **Mistral API key** configured via `[https://admin.mistral.ai/organization/api-keys](https://admin.mistral.ai/organization/api-keys)` and entered in the `.env` file
 
 ## Windows — Command Prompt (`cmd`)
@@ -202,7 +204,7 @@ VELMA Visualization, Extraction, Linguistic analysis and Metadata for Archives d
 ### 1. Navigate to the project folder
 
 ```cmd
-cd path\to\VELMA Visualization, Extraction, Linguistic analysis and Metadata for Archives documents
+cd path\to\VELMA 2.0 2.0 Visualization, Extraction, Linguistic analysis and Metadata for Archives documents
 
 ```
 
@@ -229,7 +231,7 @@ pip install -r requirements.txt
 
 ---
 
-# Launching VELMA Visualization, Extraction, Linguistic analysis and Metadata for Archives documents
+# Launching VELMA 2.0 2.0 Visualization, Extraction, Linguistic analysis and Metadata for Archives documents
 
 Once the virtual environment is activated and dependencies are installed, launch the application with:
 

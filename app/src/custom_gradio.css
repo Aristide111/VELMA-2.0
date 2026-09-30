@@ -1,0 +1,117 @@
+body, .gradio-container {
+    background-color: #eceadf !important;
+    color: #171717 !important;
+}
+
+/* En-tête principal */
+#header-row {
+    background-color: #171717;
+    padding: 20px;
+    align-items: center;
+    border-bottom: 4px solid #36AD58;
+}
+
+
+/* Titre principal */
+#main-title,
+#main-title p {
+    text-align: center !important;
+    color: #36AD58 !important;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif !important;
+    font-size: 300% !important;
+}
+
+/* Blocs principaux */
+.bordered-box {
+    border: 1px solid #171717;
+    border-radius: 6px;
+    padding: 15px;
+    background-color: #eceadf;
+}
+
+/* Zone de confirmation de suppression */
+#confirm-box {
+    border: 2px solid #3B3D7B;
+    background-color: #deddec;
+    padding: 15px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+/* Boutons */
+button {
+    border-radius: 5px !important;
+}
+
+button.primary {
+    background-color: #36AD58 !important;
+    color: #171717 !important;
+}
+
+/* Zone d'avertissement */
+#warning-footer-row {
+    background-color: #ee8a76 !important;
+    border: 1px solid #36AD58 !important;
+    border-radius: 6px;
+    padding: 12px 18px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 0.83em;
+    line-height: 1.4;
+    color: #171717 !important;
+}
+
+
+/* Pied de page */
+#footer-row p {
+    background-color: #171717 !important;
+    color: #36AD58 !important;
+    font-size: 120% !important;
+    font-weight: bold !important;
+    text-align: center !important;
+}
+
+/* Liens */
+a {
+    color: #36AD58;
+}
+
+a:hover {
+    color: #227038;
+}
+
+#footer-row a {
+    color: #36AD58 !important;
+}
+
+/* Titres */
+h1, h2, h3 {
+    color: #3B3D7B;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+/* Texte général */
+p {
+    color: #171717;
+    font-family: "Times New Roman", Times, serif;
+}
+
+/* Champs de saisie */
+textarea,
+input {
+    background-color: #f7f6ef !important;
+    color: #171717 !important;
+    border: 1px solid #171717 !important;
+}
+
+/* Labels */
+label {
+    color: #171717 !important;
+}
+
+/* Accordéons */
+details,
+.gr-accordion {
+    background-color: #eceadf !important;
+    border-color: #171717 !important;
+}
